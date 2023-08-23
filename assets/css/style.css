@@ -51,10 +51,22 @@ main {
     flex: 1.0 auto;
 }
 
+/*Made the menu letters bigger, spaced them out more and removed the bullet points
+in order for it to be more readable and not let the users accidently tap the 
+wrong menu button*/
 #menu {
     font-size:110%;
     letter-spacing: 4px;
-    list-style: none;
+    list-style-type: none;
+}
+
+/*Spaced each button out a bit more*/
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.active {
+    border-bottom: 1px solid #3a3a3a;
 }
 
 /*footer*/
