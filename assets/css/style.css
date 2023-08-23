@@ -9,6 +9,9 @@
     box-sizing: border-box;
 }
 
+
+
+
 /*General style rules*/
 body {
     min-height: 100vh;
@@ -19,6 +22,9 @@ body {
     font-family: "Lato", sans-serif;
 
 }
+
+
+
 
 /* Header*/
 header {
@@ -33,12 +39,18 @@ header {
     align-items: baseline;
 }
 
+
+
+
 header a {
 
     text-decoration: none;
     color:inherit;
     
 }
+
+
+
 
 h1 {
     font-family: "oswald", sans-serif;
@@ -47,12 +59,21 @@ h1 {
     color: #252525;
 }
 
+
+
+
+
 /*Main*/
 main {
     background-color: lightblue;
     /*making main property take up any surplus area to push down footer*/
     flex: 1.0 auto;
+
+    margin-top: 47px;
 }
+
+
+
 
 /*Made the menu letters bigger, spaced them out more and removed the bullet points
 in order for it to be more readable and not let the users accidently tap the 
