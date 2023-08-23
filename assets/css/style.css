@@ -28,13 +28,16 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #3a3a3a;
-
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 header a {
 
     text-decoration: none;
     color:inherit;
+    
 }
 
 h1 {
@@ -74,7 +77,7 @@ wrong menu button*/
 
 /*nav bar with dropdown toggle*/
 nav {
-    
+
     position:absolute;
     background-color: #ffffff;
     width: 100%;
@@ -83,6 +86,24 @@ nav {
     padding: 0 1rem;
     /*This is how you can hide the nav bar before you click on it*/
     display: none;
+    /*in order to not getting your navbar in front of your title. this tells nav to
+    start at the bottom of the parent element 0% is on top, 100% is on the bottom*/
+    top:100%;
+}
+
+/* Nav Toggle */
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle{
+    display:none;
+
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+
 }
 
 /*footer*/
