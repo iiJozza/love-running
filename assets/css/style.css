@@ -5,6 +5,16 @@
     box-sizing: border-box;
 }
 
+/*General style rules*/
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /*For generic project styles*/
+    color: #3a3a3a;
+
+}
+
 /* Header*/
 header {
     background-color: antiquewhite;
@@ -13,6 +23,8 @@ header {
 /*Main*/
 main {
     background-color: lightblue;
+    /*making main property take up any surplus area to push down footer*/
+    flex: 1.0 auto;
 }
 
 /*footer*/
