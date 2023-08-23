@@ -55,8 +55,11 @@ main {
 in order for it to be more readable and not let the users accidently tap the 
 wrong menu button*/
 #menu {
+    /*The text size relative to the defult*/
     font-size:110%;
+    /*letter spacing*/
     letter-spacing: 4px;
+    /*Taking away the underline and bulletpoint and make it only text*/
     list-style-type: none;
 }
 
@@ -67,6 +70,19 @@ wrong menu button*/
 
 .active {
     border-bottom: 1px solid #3a3a3a;
+}
+
+/*nav bar with dropdown toggle*/
+nav {
+    
+    position:absolute;
+    background-color: #ffffff;
+    width: 100%;
+    left:0;
+    box-shadow: 0 2px 2px #3a3a3a;
+    padding: 0 1rem;
+    /*This is how you can hide the nav bar before you click on it*/
+    display: none;
 }
 
 /*footer*/
