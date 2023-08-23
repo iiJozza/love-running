@@ -131,3 +131,28 @@ nav {
 footer {
     background-color: lightcoral;
 }
+
+/*Media query. Tablets and larger (768px - above)*/
+@media screen and (min-width:768px) {
+    nav {
+        display:block;
+        position: relative;
+        box-shadow:none;
+        width: fit-content;
+        padding: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+    #menu>li {
+        margin-right: 1em;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+
+
+}
+
