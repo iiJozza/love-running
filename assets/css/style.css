@@ -94,6 +94,33 @@ main {
     color:#ffffff
 }
 
+#reasons {
+    margin: 20px auto;
+    width:90%;
+
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 280%;
+}
+
+#benefit-physical > div, #benefit-mental > div {
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+#benefits p {
+    padding: 0 20px;
+}
+
+#benefits hr {
+    border-top: 1px solid #3a3a3a;
+    margin: 5px 0;
+}
+
 /*Made the menu letters bigger, spaced them out more and removed the bullet points
 in order for it to be more readable and not let the users accidently tap the 
 wrong menu button*/
@@ -164,6 +191,8 @@ nav {
 
 
 }
+
+
 
 /*Media query. Tablets and larger (768px - above)*/
 @media screen and (min-width:768px) {
