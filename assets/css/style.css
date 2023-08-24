@@ -23,6 +23,12 @@ body {
 
 }
 
+h1, h2, h3 {
+    font-family: "oswald", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
 
 
 
@@ -52,12 +58,6 @@ header a {
 
 
 
-h1 {
-    font-family: "oswald", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #252525;
-}
 
 
 
@@ -75,10 +75,24 @@ main {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center/cover ;
+    position: relative;
 
 }
 
+#cover-text{
+    background-color: rgba(247, 107, 107, .7);
+    font-size: 130%;
+    position: absolute;
+    bottom: 30px;
+    width: 80%;
+    min-height: 200px;
+    padding-top: 40px;
+    padding-left: 10px;
+}
 
+#cover-text > h2, #cover-text > h3 {
+    color:#ffffff
+}
 
 /*Made the menu letters bigger, spaced them out more and removed the bullet points
 in order for it to be more readable and not let the users accidently tap the 
@@ -183,6 +197,14 @@ nav {
     main {
         /*push down content to be viewable*/
         margin-top: 88px;
+    }
+
+    /*Hero*/
+
+    #cover-text {
+
+        width: 300px;
+        right: 50px;
     }
 
 
