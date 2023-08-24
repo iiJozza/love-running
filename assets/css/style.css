@@ -65,13 +65,18 @@ h1 {
 
 /*Main*/
 main {
-    background-color: lightblue;
     /*making main property take up any surplus area to push down footer*/
     flex: 1.0 auto;
 
     margin-top: 47px;
 }
 
+#hero {
+    height: 600px;
+    width: 100%;
+    background: url(../images/hero-image.webp) no-repeat center center/cover ;
+
+}
 
 
 
