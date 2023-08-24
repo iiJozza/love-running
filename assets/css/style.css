@@ -45,8 +45,8 @@ header {
 header a {
 
     text-decoration: none;
-    color:inherit;
-    
+    color: inherit;
+
 }
 
 
@@ -80,7 +80,7 @@ in order for it to be more readable and not let the users accidently tap the
 wrong menu button*/
 #menu {
     /*The text size relative to the defult*/
-    font-size:110%;
+    font-size: 110%;
     /*letter spacing*/
     letter-spacing: 4px;
     /*Taking away the underline and bulletpoint and make it only text*/
@@ -88,7 +88,7 @@ wrong menu button*/
 }
 
 /*Spaced each button out a bit more*/
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -99,17 +99,17 @@ wrong menu button*/
 /*nav bar with dropdown toggle*/
 nav {
 
-    position:absolute;
+    position: absolute;
     background-color: #ffffff;
     width: 100%;
-    left:0;
+    left: 0;
     box-shadow: 0 2px 2px #3a3a3a;
     padding: 0 1rem;
     /*This is how you can hide the nav bar before you click on it*/
     display: none;
     /*in order to not getting your navbar in front of your title. this tells nav to
     start at the bottom of the parent element 0% is on top, 100% is on the bottom*/
-    top:100%;
+    top: 100%;
 }
 
 /* Nav Toggle */
@@ -117,27 +117,41 @@ nav {
     display: block;
 }
 
-#nav-toggle{
-    display:none;
+#nav-toggle {
+    display: none;
 
 }
 
-.nav-toggle-label{
+.nav-toggle-label {
     font-size: 2rem;
 
 }
 
-/*footer*/
-footer {
-    background-color: lightcoral;
+#social-networks{
+    
+    text-align: center;
+    padding: 20px 0;
+    display:flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+
+}
+
+#social-networks i{
+
+    font-size: 160%;
+    padding: 5%;
+    color: #3a3a3a;
+
+
 }
 
 /*Media query. Tablets and larger (768px - above)*/
 @media screen and (min-width:768px) {
     nav {
-        display:block;
+        display: block;
         position: relative;
-        box-shadow:none;
+        box-shadow: none;
         width: fit-content;
         padding: 1rem;
     }
@@ -145,11 +159,12 @@ footer {
     #menu {
         display: flex;
     }
+
     #menu>li {
         margin-right: 1em;
     }
 
-    .nav-toggle-label{
+    .nav-toggle-label {
         display: none;
     }
 
@@ -160,7 +175,7 @@ footer {
     }
 
     /*main content*/
-    main{
+    main {
         /*push down content to be viewable*/
         margin-top: 88px;
     }
@@ -174,6 +189,6 @@ footer {
         border-bottom: 1px solid #3a3a3a;
 
     }
-    
+
 
 }
