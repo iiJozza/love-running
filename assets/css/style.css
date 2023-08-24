@@ -95,9 +95,8 @@ main {
 }
 
 #reasons {
+    width: 90%;
     margin: 20px auto;
-    width:90%;
-
 }
 
 #reasons h2 {
@@ -106,10 +105,10 @@ main {
     font-size: 280%;
 }
 
-#benefit-physical > div, #benefit-mental > div {
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
-
 }
 
 #benefits p {
@@ -120,6 +119,8 @@ main {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
 }
+
+
 
 /*Made the menu letters bigger, spaced them out more and removed the bullet points
 in order for it to be more readable and not let the users accidently tap the 
