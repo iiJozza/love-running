@@ -133,10 +133,13 @@ main {
 }
 
 #benefits-image {
+
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+
 
 /*Made the menu letters bigger, spaced them out more and removed the bullet points
 in order for it to be more readable and not let the users accidently tap the 
@@ -251,6 +254,24 @@ nav {
 
         width: 300px;
         right: 50px;
+    }
+        
+    #benefits-physical,
+    #benefits-mental {
+        display: flex;
+        flex-direction: column;
+        width:100%;
+
+    }
+
+    #benefits-physical > div,
+    #benefits-mental > div {
+        width: 75%;
+    }
+
+    #benefits-mental>div {
+        text-align: end;
+        align-self: flex-end;
     }
 
 
