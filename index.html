@@ -1,77 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--Meta tags for searchengines-->
-    <meta
-      name="description"
-      content="Ms hors d'ourvre. A catering shop specializing
-     at creating small edible artworks for the food lovers in Stockholm."
-    />
-    <meta
-      name="keywords"
-      content="canape, canapes, catering, luxuery eating, catering business, food, 
-     small food, decorative foods, beautiful food, Stockholm, Sweden, shop, buy"
-    />
 
-    <!--titeln-->
-    <title>Love Running!</title>
-    <!--favicons-->
-    <link
-      rel="apple-touch-icon"
-      sizes="180x180"
-      href="assets/favicons/apple-touch-icon.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="32x32"
-      href="assets/favicons/favicon-32x32.png"
-    />
-    <link
-      rel="icon"
-      type="image/png"
-      sizes="16x16"
-      href="assets/favicons/favicon-16x16.png"
-    />
-    <link rel="stylesheet" href="assets/css/style.css" />
-  </head>
-  <body>
-    <!--A header is used to mark the top section of a webpage. It usually contains 
-    the logo, title and the main navigating menu. It is a indroduction to your website-->
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Meta tags for search engines -->
+    <meta name="description"
+        content="Love Running. Club for runners in Dublin, Ireland. Urban running, trail running. Dublin docklands and Phoenix Park">
+    <meta name="keywords" content="love running, run, running club, runners, Ireland, Dublin, sport, exercise">
+    <!-- Title -->
+    <title>Love Running</title>
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <!-- Header -->
     <header>
-      <a href="index.html">
-        <h1 id="logo">Love Running</h1>
-      </a>
-      <input type="checkbox" id="nav-toggle" name="nav-toggle" />
-      <label for="nav-toggle" class="nav-toggle-label">
-        <i class="fa-solid fa-bars"></i>
-      </label>
-      <nav>
-        <ul id="menu">
-          <li>
-            <a href="index.html" class="active">Home</a>
-          </li>
-          <li>
-            <a href="gallery.html">Gallery</a>
-          </li>
-          <li>
-            <a href="signup.html">Sign Up</a>
-          </li>
-        </ul>
-      </nav>
+        <a href="index.html">
+            <h1 id="logo">Love Running</h1>
+        </a>
+        <input type="checkbox" id="nav-toggle" name="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+        <nav>
+            <ul id="menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="signup.html">Sign Up</a></li>
+            </ul>
+        </nav>
     </header>
-    <!--A main element is for, like the title suggests, the main content of the website.
-    It is the meat of the website-->
+
+    <!-- Main content -->
     <main>
+        <!-- Hero section -->
         <section id="hero">
             <div id="cover-text">
                 <h2>Love Running</h2>
                 <h3>Dublin Docklands & Phoenix Park</h3>
             </div>
         </section>
+
+        <!-- Reasons section -->
         <section id="reasons">
             <h2>Why love running with us?</h2>
             <div id="benefits">
@@ -104,58 +81,81 @@
                 </div>
                 <div id="benefits-image">
                     <div id="circle-cover-bg"></div>
+                </div>
+            </div>
+        </section>
 
+        <!-- Meetup times section -->
+        <section id="meetups">
+            <h2 class="hidden-heading">Meet-up Times</h2>
+            <div id="times">
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Monday</p>
+                    <p>5K</p>
+                    <p>The Marker Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Wednesday</p>
+                    <p>10K</p>
+                    <p>The Phoenix Park</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Urban <i class="fa-solid fa-city"></i></h3>
+                    <p>Friday</p>
+                    <p>5K</p>
+                    <p>The Marker Hotel</p>
+                    <p>18:30</p>
+                </div>
+                <div>
+                    <h3>Trail <i class="fa-solid fa-tree"></i></h3>
+                    <p>Saturday</p>
+                    <p>10K</p>
+                    <p>The Phoenix Park</p>
+                    <p>09:30</p>
+                </div>
+                <div>
+                    <h3>Coffee <i class="fa-solid fa-mug-hot"></i></h3>
+                    <p>Sunday</p>
+                    <p>0K</p>
+                    <p>The Marker Hotel</p>
+                    <p>11:30</p>
                 </div>
             </div>
         </section>
     </main>
 
-
-    <!--A footer element is the ending of your webpage. You might find things
-        like copyright information, contact details, and links to other pages.-->
+    <!-- Footer -->
     <footer>
-      <!--Socials-->
-      <ul id="social-networks">
-        <li
-          href="http://www.facebook.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our Facebook site! (Opens in a new tab)"
-        >
-          <i class="fa-brands fa-facebook"></i>
-        </li>
-
-        <li
-          href="http://www.twitter.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our Twitter! (Opens in a new tab)"
-        >
-          <i class="fa-brands fa-x-twitter"></i>
-        </li>
-        <li
-          href="http://www.youtube.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our YouTube channel! (Opens in a new tab)"
-        >
-          <i class="fa-brands fa-youtube"></i>
-        </li>
-
-        <li
-          href="http://www.instagram.com/"
-          target="_blank"
-          rel="noopener"
-          aria-label="Visit our Instagram page! (Opens in a new tab)"
-        >
-          <i class="fa-brands fa-instagram"></i>
-        </li>
-      </ul>
+        <ul id="social-networks">
+            <li>
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tab)">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="https://www.twitter.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tab)">
+                    <i class="fa-brands fa-twitter-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.youtube.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our YouTube page (opens in a new tab)">
+                    <i class="fa-brands fa-youtube-square"></i></a>
+            </li>
+            <li>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tab)">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
     </footer>
-  </body>
-  <!--Fontawesome kit-->
-  <script
-    src="https://kit.fontawesome.com/7811ad6ea4.js"
-    crossorigin="anonymous"
-  ></script>
+
+    <!-- Font Awesome kit -->
+    <script src="https://kit.fontawesome.com/3b20d96fa9.js" crossorigin="anonymous"></script>
+</body>
+
 </html>
